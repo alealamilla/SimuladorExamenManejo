@@ -1,0 +1,111 @@
+/* Select de Buscar Usuario */
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #F5F5F5;
+  border: transparent;
+  width: 100%;
+  padding: 5px;
+  font-family: monse_regular;
+  font-size: 14pt;
+  color: #BEBDBE;
+}
+
+.custom-select::after {
+  content: "\f002";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #BEBDBE;
+  pointer-events: none;
+}
+
+.costume-border {
+  border-bottom: 1px solid #494949;
+  height: 37px;
+}
+
+.btn-newuser {
+  font-size: 8pt;
+  font-family: monse_regular;
+  color: #ffffff;
+  background-color: #588ddd;
+  cursor: pointer;
+  width: 125px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.btn-newuser:hover {
+  background-color: #3f5f8b;
+  color: #ffffff;
+}
+
+.btn-security {
+  font-size: 8pt;
+  font-family: monse_regular;
+  color: #ffffff;
+  background-color: #4A7EBA;
+  cursor: pointer;
+  width: 175px;
+  height: 30px;
+  /* margin-left: 10px;
+  margin-top: -5px; */
+}
+
+.btn-security:hover {
+  color: #F5F5F5;
+
+}
+
+/* #usuarios_list::-webkit-scrollbar {
+  width: 12px; 
+}
+
+#usuarios_list::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+#usuarios_list::-webkit-scrollbar-track {
+  background: transparent; 
+} */
+
+@media (min-width: 55px) and (max-width: 990px) {
+  #forms {
+    width: 98% !important;
+  }
+
+}
+
+/* Style select2 clientes */
+.select2-container {
+  width: 100% !important;
+  border: transparent !important;
+
+}
+
+.select2-results__option {
+  color: #BEBDBE;
+}
+
+.select2-selection__rendered {
+  background-color: #F5F5F5;
+  border: none !important;
+  border-radius: 7px !important;
+  font-family: monse_regular;
+  font-size: 14pt;
+  color: #BEBDBE !important;
+}
+
+.select2-selection__arrow {
+  display: none !important;
+}

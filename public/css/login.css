@@ -1,0 +1,40 @@
+#pseudobody1 {
+    width: 100%;
+    height: 80vh;
+    background-color: #4798e9;
+}
+
+#pseudobody2 {
+    width: 100%;
+    height: 20vh;
+    background: #cfdbecbe;
+}
+
+.text {
+    color: #0b2347;
+    font-size: 16px;
+}
+
+.container {
+    border-radius: 7px;
+    width: 60%;
+    height: 375px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    font-size: 14px !important;
+    color: #ffffff !important;
+    background: #4798e9 !important;
+    cursor: pointer !important;
+    width: 22%;
+    margin-top: 4%;
+}
+
+.btn-blue:hover {
+    background: #26436d !important;
+    color: #000000 !important;
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: sans_regular;
+    src: url("../fonts/Source_Sans_3/static/SourceSans3-Regular.ttf");
+}
+
+@font-face {
+    font-family: sans_semibold;
+    src: url("../fonts/Source_Sans_3/static/SourceSans3-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: sans_light;
+    src: url("../fonts/Source_Sans_3/static/SourceSans3-Light.ttf");
+}
+
+@font-face {
+    font-family: sans_bold;
+    src: url("../fonts/Source_Sans_3/static/SourceSans3-Bold.ttf");
+}
+
+@font-face {
+    font-family: avenir;
+    src: url("../fonts/Avenir-Roman/Avenir-Roman.ttf");
+}
+
+@font-face {
+    font-family: av;
+    src: url("../fonts/Avenir-Roman/AvenirLTStd-Black.ttf");
+}
+
+@font-face {
+    font-family: avenir_medium;
+    src: url("../fonts/Avenir-Roman/AvenirNextLTPro-It.ttf");
+}
+
+@font-face {
+    font-family: monse_regular;
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: monse_light;
+    src: url("../fonts/Montserrat/static/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: monse_bold;
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: monse_semibold;
+    src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: monse_medium;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
